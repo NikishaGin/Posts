@@ -1,0 +1,13 @@
+
+
+.title {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+
+
