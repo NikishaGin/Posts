@@ -23,7 +23,7 @@ export const PostFilter = (props: PropsType) => {
     }
 
     return (
-        <div>
+        <div style={{marginTop: '20px'}}>
             <MyInput placeholder={'Поиск...'}
                      value={props.searchQuery}
                      onChange={onChangeSearchQuery}

@@ -28,7 +28,7 @@ export const PostList = (props: PropsPostType) => {
             </h1>
             {props.post.map((el, index) => {
                 return <PostItem key={el.id}
-                                 index={index + 1}
+                                 id={el.id}
                                  title={el.title}
                                  body={el.body}
                                  removePostHandler={() => removePostHandler(el.id)}

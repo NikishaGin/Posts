@@ -1,7 +1,7 @@
 import React from 'react';
 
 type PostItemType = {
-    index: number
+    id: string
     title: string,
     body: string,
     removePostHandler: () => void
@@ -12,7 +12,7 @@ export const PostItem = (props: PostItemType) => {
     return (
         <div className={"post"}>
             <div className={"post_content"}>
-                <strong>{props.index}. {props.title}</strong>
+                <strong>{props.id}. {props.title}</strong>
                 <div>{props.body}</div>
             </div>
             <div className={"post_btns"}>
